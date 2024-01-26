@@ -1,0 +1,19 @@
+body {
+  background-color: #48cd00;
+}
+.raiting {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.item {
+  background-color: #bcbfba;
+  -webkit-mask-image: url(star.svg);
+  mask-image: url(star.svg);  /* poner img como mascara */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.item-full {
+  background-color: yellow;
+}
